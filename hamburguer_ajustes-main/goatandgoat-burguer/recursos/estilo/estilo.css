@@ -11,8 +11,8 @@ nav{
     width: 100%;
     margin-top: -100px;
     position: fixed;
-     /*background-color: white;
-   height: 100px;*/
+    background-color: white;
+   height: 100px;
 
 }
 
@@ -97,10 +97,10 @@ nav span{
     padding: 15px;
     margin: 10px 27px;
     border-radius: 20px;
-    border:none;
-    border: #f70808;
+    border:rgb(252, 4, 4);
+    border: #63f105;
     font-size: 2em;
-    color: rgb(253, 6, 6);
+    color: rgb(252, 4, 4);
 }
 /*-----carrossel------*/
 .container_par{
@@ -168,6 +168,8 @@ nav span{
 
 .lanches_item .valor_lanche{
     margin: 5px;
+    padding:1px 2px 2px 1px;
+    bottom: 2px;
     font-size: 0.9em;
     font-weight: 600;
 }
