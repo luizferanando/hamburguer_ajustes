@@ -27,8 +27,7 @@ function comprar(q, v, h) {
     qtd += q;
     valor += v;
 
-    //console.log(qtd, valor, h, v);
-    //console.log(`Quantidade: ${qtd}, Valor total: R$${valor}`);
+   
     itensCarrinho.textContent = qtd < 10 ? "0" + qtd : qtd;
 
     adicionarProduto(h, v);
@@ -55,7 +54,7 @@ function adicionarProduto(nome, valor) {
 
     rw.onsuccess = (event) => {
         console.log("sucesso", event);
-       // listarProduto(loja);
+       listarProduto(loja);
     };
 }
 
